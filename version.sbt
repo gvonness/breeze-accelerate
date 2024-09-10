@@ -6,7 +6,7 @@ git.baseVersion := "2.1.0"
 
 val VersionRegex = "v([0-9]+.[0-9]+.[0-9]+)-?(.*)?".r
 
-ThisBuild / version := "2.1.0"
+ThisBuild / version := "SNAPSHOT-5"
 
 /*
 git.gitTagToVersionNumber := {
