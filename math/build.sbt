@@ -11,13 +11,13 @@ libraryDependencies ++= Seq(
   "net.sourceforge.f2j" % "arpack_combined_all" % "0.1",
   "net.sf.opencsv" % "opencsv" % "2.3",
   "com.github.wendykierp" % "JTransforms" % "3.1",
-  "org.apache.commons" % "commons-math3" % "3.2",
+  "org.apache.commons" % "commons-math3" % "3.6.1",
 //  ("com.chuusai" %% "shapeless" % "2.3.3").withDottyCompat(scalaVersion.value),
-  "org.slf4j" % "slf4j-api" % "1.7.5",
-  "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.17.1" % "test",
-  "org.apache.logging.log4j" % "log4j-core" % "2.17.1" % "test",
-  "org.apache.logging.log4j" % "log4j-api" % "2.17.1" % "test",
-  ("org.scala-lang.modules" %% "scala-collection-compat" % "2.7.0")
+  "org.slf4j" % "slf4j-api" % "2.0.12",
+  "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.23.1" % "test",
+  "org.apache.logging.log4j" % "log4j-core" % "2.23.1" % "test",
+  "org.apache.logging.log4j" % "log4j-api" % "2.23.1" % "test",
+  "org.scala-lang.modules" %% "scala-collection-compat" % "2.12.0"
 )
 
 libraryDependencies += {
